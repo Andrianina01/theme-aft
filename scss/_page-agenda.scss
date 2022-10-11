@@ -1,0 +1,35 @@
+.em.em-view-container {
+    .em-list {
+        .col-12.gs_reveal {
+            .col-xl-8 {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                h3 {
+                    margin: 0 0 20px !important;
+                    font-size: 20px !important;
+                    color: rgb(33, 37, 41) !important;
+                }
+            }
+            ul {
+                margin-bottom: 54px !important;
+                @media screen and (max-width:1600px) {
+                    margin-bottom: 25px !important;
+                }
+
+                li {
+                    &:first-child {
+                        font-style: normal;
+                    }
+                }
+            }
+            p, li {
+                font-size: 22.57px;
+                font-family: "OpenSans";
+                line-height: normal;
+                @media screen and (max-width:1600px) {
+                  font-size: 17px;
+                }
+            }
+        }
+    }
+}

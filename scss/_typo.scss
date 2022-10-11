@@ -1,0 +1,39 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: "OpenSans-bold";
+}
+.em.em-view-container h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit !important;
+
+	&:hover {
+		text-decoration: none !important;
+		color: inherit !important;
+		opacity: .9;
+	}
+}
+
+//list
+li,
+ol {
+	font-size: 18px;
+}
+
+figure {
+	text-align: center;
+	margin: 1rem auto;
+}

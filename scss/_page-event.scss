@@ -1,0 +1,11 @@
+.em.em-view-container div.em-list div.row:hover .image img {
+  -webkit-transform: scale(1.15) !important;
+  -ms-transform: scale(1.15) !important;
+  transform: scale(1.15) !important;
+  -webkit-transition: all 750ms ease-in-out;
+  -o-transition: all 750ms ease-in-out;
+  transition: all 750ms ease-in-out;
+}
+.em.em-view-container div.em-list .col-12.gs_reveal:last-child {
+	border: none;
+}

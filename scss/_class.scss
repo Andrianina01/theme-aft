@@ -1,0 +1,30 @@
+
+//bootstrap
+.pr-5 {
+  padding-right: 2rem !important; 
+}
+.pl-0 {
+	padding-left: 0 !important;
+}
+.ml-2 {
+	margin-left: 0.5rem !important;
+}
+.ml-3 {
+	margin-left: 1rem !important;
+}
+
+.bg-primary {
+	background-color: $color_primary !important; 
+}
+
+#viewport .text-primary {
+	color: $color_primary !important;
+} 
+.text-left {
+	text-align: left !important;
+}
+
+// width
+.max-w-991 {
+	max-width: 991px !important;
+}
